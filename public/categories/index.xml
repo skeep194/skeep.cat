@@ -6,7 +6,9 @@
     <description>Recent content in Categories on Redmage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <copyright>© 2025 </copyright>
+    <managingEditor>me@skeep.cat (skeep194)</managingEditor>
+    <webMaster>me@skeep.cat (skeep194)</webMaster>
+    <copyright>© 2025 skeep194</copyright>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
