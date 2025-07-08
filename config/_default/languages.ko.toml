@@ -11,7 +11,7 @@ title = "Redmage"
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "personal blog to post software development skill and introduce to catalonia"
   copyright = "© 2025 skeep194"
 
 [params.author]
@@ -19,7 +19,7 @@ title = "Redmage"
   email = "me@skeep.cat"
   image = "img/blowfish_logo.png"
   imageQuality = 96
-  headline = "개발향 첨가 일상을 맛봐요"
+  headline = "개발향 첨가 일상을 맛봐요\n\nRedmage는 파이널판타지 시리즈 적마도사에서 따온 사이트 이름이에요"
   bio = "어쩌다 개발자"
   links = [
     { email = "mailto:me@skeep.cat" },
