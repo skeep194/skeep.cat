@@ -2,7 +2,7 @@ disabled = false
 languageCode = "ko"
 languageName = "Korean"
 weight = 1
-title = "Redmage"
+title = "skeep.cat"
 
 [params]
   displayName = "KO"
@@ -17,9 +17,9 @@ title = "Redmage"
 [params.author]
   name = "skeep194"
   email = "me@skeep.cat"
-  image = "img/blowfish_logo.png"
+  image = "img/main.jpg"
   imageQuality = 96
-  headline = "개발향 첨가 일상을 맛봐요\n\nRedmage는 파이널판타지 시리즈 적마도사에서 따온 사이트 이름이에요"
+  headline = "개발향 첨가 일상을 맛봐요.\n\n.cat 도메인에 대해 궁금하면 [**여기**](https://skeep.cat)를 눌러주세요!"
   bio = "어쩌다 개발자"
   links = [
     { email = "mailto:me@skeep.cat" },
