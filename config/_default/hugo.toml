@@ -70,3 +70,7 @@ enableEmoji = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[services]
+  [services.disqus]
+    shortname = 'skeep194'

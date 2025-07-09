@@ -48,7 +48,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 [homepage]
   layout = "profile" # valid options: page, profile, hero, card, background, custom
   #homepageImage = "IMAGE.jpg" # used in: hero, and card
-  showRecent = false
+  showRecent = true
   showRecentItems = 5
   showMoreLink = false
   showMoreLinkDest = "/posts/"
@@ -59,8 +59,8 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [article]
   showDate = true
-  showViews = false
-  showLikes = false
+  showViews = true
+  showLikes = true
   showDateOnlyInArticle = false
   showDateUpdated = false
   showAuthor = true
@@ -88,6 +88,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showWordCount = false
   # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
   showZenMode = false
+  showComments = true
 
 [list]
   showHero = false
@@ -131,13 +132,13 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   cardViewScreenWidth = false
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  apiKey = "AIzaSyA8PMH5yNj0qeMvntIEu4aWNlMfN2Mu60E"
+  authDomain = "skeepcat.firebaseapp.com"
+  projectId = "skeepcat"
+  storageBucket = "skeepcat.firebasestorage.app"
+  messagingSenderId = "825165506831"
+  appId = "1:825165506831:web:fb792884da3ea427e1367a"
+  measurementId = "G-FTT55MT5L3"
 
 [fathomAnalytics]
   # site = "ABC12345"
