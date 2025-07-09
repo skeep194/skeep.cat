@@ -3,7 +3,16 @@
     host: "https://comment.skeep.cat",
     site_id: "SKEEP_CAT",
     url: window.location.pathname,
+    theme: document.documentElement.classList.contains("dark")
+      ? "dark"
+      : "light",
   };
+  document.querySelectorAll('[id^="appearance-switcher"]').forEach((el) => {
+    el.addEventListener("click", () => {
+      remark_config.theme = remark_config.theme === "dark" ? "light" : "dark";
+      window.REMARK42.changeTheme(remark_config.theme);
+    });
+  });
 </script>
 <script>
   !(function (e, n) {
